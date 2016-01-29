@@ -1,0 +1,22 @@
+基础环境安装
+
+安装安卓开发环境
+配置环境变量 ANDROID_HOME
+
+
+$ npm install -g cordova ionic
+$ cd newapp
+$ ionic platform add android
+
+编译
+$ ionic build android
+
+直接安装到手机
+$ ionic run android
+
+使用浏览器浏览
+$ ionic serve
+
+更新ionic版本：
+bower install ionic --save
+ionic lib update
